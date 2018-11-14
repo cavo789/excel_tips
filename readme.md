@@ -12,7 +12,7 @@ Description
 
 Search on the second column of a range and return the value in the first column (or any column). The native `VLookup` formula is designed to only search on the first column.
 
-[Read more](/blob/master/src/InversedVlookup/readme.md)
+[Read more](https://github.com/cavo789/excel_tips/blob/master/src/InversedVLookup/readme.md)
 
 ## License
 
