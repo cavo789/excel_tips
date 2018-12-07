@@ -1,3 +1,5 @@
+![Banner](images/banner.jpg)
+
 # Excel tips
 
 > A few Excel tips
