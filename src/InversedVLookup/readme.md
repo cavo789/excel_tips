@@ -16,16 +16,12 @@ The standard `VLookup` formula will search for a matching in the first column of
 | F   | 6   |
 | G   | 7   |
 
-The [Excel InversedVLookup.xlsx](InversedVLookup.xlsx) demo comes with a formula that make this possible.
+The [InversedVLookup.xlsx](./files/InversedVLookup.xlsx) demo comes with a formula that make this possible.
 
-![Demo](demo.png)
+![Demo](./images/demo.png)
 
 This demo show how to do this; step by step or in a single (long) formula.
 
 The final formula is : `=INDEX(data;MATCH($F$3;INDIRECT(ADDRESS(ROW(data);COLUMN(data)+1)&":"&ADDRESS(ROW(data)+ROWS(data)-1;COLUMN(data)+COLUMNS(data)-1));0);1)`
 
 where `data` is the name given to the range `$B$3:$C$28`.
-
-## License
-
-[MIT](LICENSE)
