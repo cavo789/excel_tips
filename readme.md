@@ -1,6 +1,6 @@
-![Banner](images/banner.jpg)
-
 # Excel tips
+
+![Banner](./banner.svg)
 
 > A few Excel tips
 
